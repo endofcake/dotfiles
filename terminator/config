@@ -1,0 +1,82 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#d30102"
+  handle_size = 1
+  focus = system
+[keybindings]
+  broadcast_all = <Alt>a
+  broadcast_group = <Alt>g
+  new_terminator = <Primary><Shift>n
+  ungroup_all = <Primary><Shift>g
+  broadcast_off = <Alt>c
+[profiles]
+  [[solarized-dark]]
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+    cursor_color = "#eee8d5"
+    foreground_color = "#eee8d5"
+    show_titlebar = False
+    font = Ubuntu Mono 14
+    background_color = "#002b36"
+  [[solarized-light]]
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+    cursor_color = "#002b36"
+    foreground_color = "#002b36"
+    show_titlebar = False
+    font = Ubuntu Mono 14
+    background_color = "#eee8d5"
+  [[tried]]
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    background_darkness = 0.94
+    background_type = transparent
+    use_system_font = False
+    cursor_color = "#eee8d5"
+    foreground_color = "#859900"
+    icon_bell = False
+    show_titlebar = False
+    font = Ubuntu Mono 13
+    background_color = "#002b36"
+    scrollback_infinite = True
+  [[zenburn]]
+    scrollbar_position = hidden
+    palette = "#53DCCD:#dedede:#616161:#948567:#BCADAD:#A19879:#7F9F7F:#ACC1AC:#B3B5AF:#dedede:#9393CC:#CC9393:#CAE682:#DFBE95:#8ACCCF:#CC9393"
+    use_system_font = False
+    cursor_color = "#F6F3E8"
+    foreground_color = "#F6F3E8"
+    show_titlebar = False
+    font = Ubuntu Mono 14
+    background_color = "#404040"
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#53dccd:#ff8080:#22c0ff:#ffcc66:#6f906c:#ffffa0:#ffcc66:#acc1ac:#000000:#ed0b0b:#9393cc:#ff5cbf:#cae682:#5c80ff:#8acccf:#56ed0b"
+    cursor_shape = ibeam
+    use_system_font = False
+    cursor_color = "#FFDF6C"
+    foreground_color = "#dededb"
+    show_titlebar = False
+    font = Ubuntu Mono 14
+    background_color = "#404040"
+  [[zenburn_alt]]
+    scrollbar_position = hidden
+    palette = "#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc:#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc"
+    background_image = None
+    use_system_font = False
+    cursor_color = "#dcdcdc"
+    foreground_color = "#dcdcdc"
+    show_titlebar = False
+    font = Ubuntu Mono 14
+    background_color = "#3f3f3f"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
